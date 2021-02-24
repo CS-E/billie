@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseSettings
 
 class Settings(BaseSettings):
     twitter_secret: str
