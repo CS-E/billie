@@ -24,4 +24,5 @@ async def get_crc_response(crc_token: str):
 
 @app.post("/webhooks/twitter", status_code=200)
 async def get_webhook_data():
+    # TODO: Setup collection of data from webhook
     return "response"
