@@ -6,7 +6,9 @@ authors = ["chinmayshah99 <chinmayshah3899@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
-tweepy = "^3.9.0"
+fastapi = "^0.63.0"
+uvicorn = "^0.13.4"
+python-dotenv = "^0.15.0"
 
 [tool.poetry.dev-dependencies]
 
